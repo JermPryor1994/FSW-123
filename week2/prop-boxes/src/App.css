@@ -1,0 +1,13 @@
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
