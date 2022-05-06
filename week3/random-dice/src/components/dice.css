@@ -1,0 +1,35 @@
+.dice {
+    width: 100px;
+    height: 100px;
+    display: inline-grid;
+    margin: 30px;
+
+}
+button {
+    align-items: center;
+    height: 50px;
+    width: 75px;
+}
+.img-1 {
+    background-image: url('./assets/diceFace1.png');
+}
+
+.img-2 {
+    background-image: url('./assets/diceFace2.png');
+}
+
+.img-3 {
+    background-image: url('./assets/diceFace3.png');
+}
+
+.img-4 {
+    background-image: url('./assets/diceFace4.png');
+}
+
+.img-5 {
+    background-image: url('./assets/diceFace5.png');
+}
+
+.img-6 {
+    background-image: url('./assets/diceFace6.png');
+}
