@@ -1,4 +1,4 @@
-import{ useState } from 'react'
+import React, { useState } from 'react'
 import Die1 from './dice'
 import Die2 from './dice2';
 import './dice.css'

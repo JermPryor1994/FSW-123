@@ -1,12 +1,6 @@
+import ToDo from "./toDo"
+
 const TodoList = (props) =>{
-    return (
-        props.text.map((todo, index) => {
-            return (
-            <li key={index}>
-                <label for='todo'>{todo.text}</label>
-                <input name='todo' type='checkbox'/>
-            </li>)
-        })
-    )
+    <ToDo key={props.index} toDo={props.toDo} completeToDo={props.completeToDo} deleteToDo={props.deleteToDo}/>
 }
 export default TodoList
