@@ -1,6 +1,11 @@
-import ToDo from "./toDo"
+import ToDo from "./toDo";
 
 const TodoList = (props) =>{
-    <ToDo key={props.index} toDo={props.toDo} completeToDo={props.completeToDo} deleteToDo={props.deleteToDo}/>
+    return(
+    props.text.map((i) =>{
+        return( 
+        <ToDo key={i.id} text={i} completeToDo={props.completeTodo} deleteToDo={props.deleteTodo}/> 
+        )
+    }))
 }
 export default TodoList

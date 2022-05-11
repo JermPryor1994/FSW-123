@@ -4,7 +4,7 @@ export const storeTodos = [
     {
         id: uuidv4(),
         text: 'Go To Gym',
-        isComplete: true
+        isComplete: false
     },
     {
         id: uuidv4(),
@@ -19,6 +19,6 @@ export const storeTodos = [
     {
         id: uuidv4(),
         text: 'Feed Animals',
-        isComplete: true
+        isComplete: false
     }
 ]
